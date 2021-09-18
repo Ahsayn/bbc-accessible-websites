@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+/* Load some fonts from Google */
+/* This first is a handwritten style called Grechen Fuemen */
+/* The second one is called poppins. It's easier to read */
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: #ff745c;
+  background-size: cover;
+  position: relative;
+  font-family: 'Grechen Fuemen', cursive;
+}
+
+h1 {
+  letter-spacing: 16px;
+  color: orange;
+}
+
+h2 {
+  color: gray;
+  font-size: 44px;
+}
+header {
+    background-image: url("https://cdn.glitch.com/b969732e-3e3d-4ede-84ec-a5db3a0cc041%2Fwakanda_bg.png?v=1631954317263");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: turquoise;
+  background: lime;
+  padding: 20px 30px;
+  border-radius: 5px
+}
+header nav ul li a:hover {
+ color: black; 
+}
+.logo {
+  max-width: 300px;
+}
+
+section {
+  padding: 40px;
+  margin: 20px;
+}
+.hero-statement {
+  background: #2e5495;
+  colour: white !important;
+  margin: 10px 0;
+  padding: 50px;
+}
+
+/* Specialities Section */
+section.specialities ol {
+  list-style: none; 
+}
+section.specialities li {
+  display: inline;
+  float: left;
+  width: 45%;
+  font-family: poppins;
+  height: 450px
+}
+section.specialities img{
+  width: auto;
+   height: 250px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #333333;
+  color: green;
+}
